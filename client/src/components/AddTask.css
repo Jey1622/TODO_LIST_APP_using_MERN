@@ -1,0 +1,37 @@
+.addtask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.addtask input[type=text]{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #0a5df7;
+    font-size: 20px;
+    padding: 20px;
+    color: #0400ff;
+}
+.addtask input[type=text]::placeholder{
+    color: #797474;
+}
+
+.addtask button{
+    width: 15%;
+    padding:10px 5px;
+    border:2px solid #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #0a5df7;
+    transition: all 0.5s ease;
+}
+.addtask button:hover{
+    background-color: #ffffff;
+    border:2px solid #0a5df7;
+    color:#0a5df7 ;
+}
